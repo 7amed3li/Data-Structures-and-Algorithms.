@@ -3,13 +3,13 @@
 # 📊 Data Structures & Algorithms
 
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Problems-2-success?style=for-the-badge" alt="Problems"/>
+<img src="https://img.shields.io/badge/Problems-3-success?style=for-the-badge" alt="Problems"/>
 <img src="https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge" alt="Status"/>
 <img src="https://img.shields.io/github/last-commit/7amed3li/Data-Structures-and-Algorithms?style=for-the-badge&color=purple" alt="Last Commit"/>
 
 <br/><br/>
 
-> *"First, solve the problem. Then, write the code."*  
+> _"First, solve the problem. Then, write the code."_  
 > — **John Johnson**
 
 <br/>
@@ -55,10 +55,11 @@ Each problem follows a consistent, educational structure:
 
 ### 🗃️ Hash Tables
 
-| Problem | Difficulty | Key Concept | Solution |
-|---------|:----------:|-------------|:--------:|
-| Birthday Problem | 🟢 Easy | Set for O(1) Lookup | [View](./Data-Structures/04-Hash-Tables/birthday_problem.ts) |
-| Two Sum | 🟢 Easy | HashMap Complement | [View](./Data-Structures/04-Hash-Tables/two_sum.ts) |
+| Problem               | Difficulty | Key Concept             |                            Solution                            |
+| --------------------- | :--------: | ----------------------- | :------------------------------------------------------------: |
+| Birthday Problem      |  🟢 Easy   | Set for O(1) Lookup     |  [View](./Data-Structures/04-Hash-Tables/birthday_problem.ts)  |
+| Two Sum               |  🟢 Easy   | HashMap Complement      |      [View](./Data-Structures/04-Hash-Tables/two_sum.ts)       |
+| 🎆 New Year Countdown |  🟢 Easy   | Sorting + Circular Time | [View](./Data-Structures/04-Hash-Tables/new_year_countdown.ts) |
 
 </div>
 
@@ -74,19 +75,19 @@ graph LR
     D --> E[Trees]
     E --> F[Graphs]
     F --> G[Dynamic Programming]
-    
+
     style B fill:#4CAF50,stroke:#333,stroke-width:2px,color:#fff
 ```
 
-| Topic | Status | Count |
-|-------|:------:|:-----:|
-| Arrays | 📝 Planned | 0 |
-| **Hash Tables** | ✅ Active | **2** |
-| Linked Lists | 📝 Planned | 0 |
-| Stacks & Queues | 📝 Planned | 0 |
-| Trees | 📝 Planned | 0 |
-| Graphs | 📝 Planned | 0 |
-| Dynamic Programming | 📝 Planned | 0 |
+| Topic               |   Status   | Count |
+| ------------------- | :--------: | :---: |
+| Arrays              | 📝 Planned |   0   |
+| **Hash Tables**     | ✅ Active  | **3** |
+| Linked Lists        | 📝 Planned |   0   |
+| Stacks & Queues     | 📝 Planned |   0   |
+| Trees               | 📝 Planned |   0   |
+| Graphs              | 📝 Planned |   0   |
+| Dynamic Programming | 📝 Planned |   0   |
 
 ---
 
@@ -123,15 +124,16 @@ npx tsx Data-Structures/04-Hash-Tables/two_sum.ts
 <td width="50%">
 
 ### 🔑 Hash Map Pattern
+
 ```typescript
 const map = new Map<number, number>();
 
 for (let i = 0; i < nums.length; i++) {
-    const complement = target - nums[i];
-    if (map.has(complement)) {
-        return [map.get(complement)!, i];
-    }
-    map.set(nums[i], i);
+  const complement = target - nums[i];
+  if (map.has(complement)) {
+    return [map.get(complement)!, i];
+  }
+  map.set(nums[i], i);
 }
 ```
 
@@ -139,6 +141,7 @@ for (let i = 0; i < nums.length; i++) {
 <td width="50%">
 
 ### 🎯 Use Cases
+
 - Finding pairs/complements
 - Frequency counting
 - Duplicate detection
@@ -152,18 +155,19 @@ for (let i = 0; i < nums.length; i++) {
 
 ## 📊 Complexity Reference
 
-| Structure | Access | Search | Insert | Delete |
-|-----------|:------:|:------:|:------:|:------:|
-| Array | O(1) | O(n) | O(n) | O(n) |
-| **Hash Table** | - | **O(1)** | **O(1)** | **O(1)** |
-| Linked List | O(n) | O(n) | O(1) | O(1) |
-| Binary Tree | O(log n) | O(log n) | O(log n) | O(log n) |
+| Structure      |  Access  |  Search  |  Insert  |  Delete  |
+| -------------- | :------: | :------: | :------: | :------: |
+| Array          |   O(1)   |   O(n)   |   O(n)   |   O(n)   |
+| **Hash Table** |    -     | **O(1)** | **O(1)** | **O(1)** |
+| Linked List    |   O(n)   |   O(n)   |   O(1)   |   O(1)   |
+| Binary Tree    | O(log n) | O(log n) | O(log n) | O(log n) |
 
 ---
 
 ## 🤝 Contributing
 
 Found this helpful? Feel free to:
+
 - ⭐ Star this repo
 - 🍴 Fork and add solutions
 - 📝 Suggest improvements
@@ -181,6 +185,6 @@ Found this helpful? Feel free to:
 
 ---
 
-*Learning in public, one algorithm at a time* 🚀
+_Learning in public, one algorithm at a time_ 🚀
 
 </div>
