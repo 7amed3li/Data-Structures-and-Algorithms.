@@ -3,7 +3,7 @@
 # 📊 Data Structures & Algorithms
 
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Problems-4-success?style=for-the-badge" alt="Problems"/>
+<img src="https://img.shields.io/badge/Problems-5-success?style=for-the-badge" alt="Problems"/>
 <img src="https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge" alt="Status"/>
 <img src="https://img.shields.io/github/last-commit/7amed3li/Data-Structures-and-Algorithms?style=for-the-badge&color=purple" alt="Last Commit"/>
 
@@ -55,12 +55,13 @@ Each problem follows a consistent, educational structure:
 
 ### 🗃️ Hash Tables
 
-| Problem               | Difficulty | Key Concept              |                            Solution                            |
-| --------------------- | :--------: | ------------------------ | :------------------------------------------------------------: |
-| Birthday Problem      |  🟢 Easy   | Set for O(1) Lookup      |  [View](./Data-Structures/04-Hash-Tables/birthday_problem.ts)  |
-| Two Sum               |  🟢 Easy   | HashMap Complement       |      [View](./Data-Structures/04-Hash-Tables/two_sum.ts)       |
-| 🎆 New Year Countdown |  🟢 Easy   | Sorting + Circular Time  | [View](./Data-Structures/04-Hash-Tables/new_year_countdown.ts) |
-| Group Anagrams        | 🟡 Medium  | Canonical Form + HashMap |   [View](./Data-Structures/04-Hash-Tables/group_anagrams.ts)   |
+| Problem                       | Difficulty | Key Concept              |                            Solution                            |
+| ----------------------------- | :--------: | ------------------------ | :------------------------------------------------------------: |
+| Birthday Problem              |  🟢 Easy   | Set for O(1) Lookup      |  [View](./Data-Structures/04-Hash-Tables/birthday_problem.ts)  |
+| Two Sum                       |  🟢 Easy   | HashMap Complement       |      [View](./Data-Structures/04-Hash-Tables/two_sum.ts)       |
+| 🎆 New Year Countdown         |  🟢 Easy   | Sorting + Circular Time  | [View](./Data-Structures/04-Hash-Tables/new_year_countdown.ts) |
+| Group Anagrams                | 🟡 Medium  | Canonical Form + HashMap |   [View](./Data-Structures/04-Hash-Tables/group_anagrams.ts)   |
+| 🔢 Longest Consecutive        | 🟡 Medium  | HashSet + Sequence Start | [View](./Data-Structures/04-Hash-Tables/longest_consecutive.ts)|
 
 </div>
 
@@ -83,7 +84,7 @@ graph LR
 | Topic               |   Status   | Count |
 | ------------------- | :--------: | :---: |
 | Arrays              | 📝 Planned |   0   |
-| **Hash Tables**     | ✅ Active  | **4** |
+| **Hash Tables**     | ✅ Active  | **5** |
 | Linked Lists        | 📝 Planned |   0   |
 | Stacks & Queues     | 📝 Planned |   0   |
 | Trees               | 📝 Planned |   0   |
@@ -115,7 +116,8 @@ npx tsx Data-Structures/04-Hash-Tables/two_sum.ts
  ┃   ┣ 📜 two_sum.ts
  ┃   ┣ 📜 new_year_countdown.ts
  ┃   ┣ 📜 new_year_visualizer.html
- ┃   ┗ 📜 group_anagrams.ts
+ ┃   ┣ 📜 group_anagrams.ts
+ ┃   ┗ 📜 longest_consecutive.ts
  ┗ 📜 README.md
 ```
 
