@@ -3,7 +3,7 @@
 # 📊 Data Structures & Algorithms
 
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Problems-5-success?style=for-the-badge" alt="Problems"/>
+<img src="https://img.shields.io/badge/Problems-6-success?style=for-the-badge" alt="Problems"/>
 <img src="https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge" alt="Status"/>
 <img src="https://img.shields.io/github/last-commit/7amed3li/Data-Structures-and-Algorithms?style=for-the-badge&color=purple" alt="Last Commit"/>
 
@@ -62,6 +62,7 @@ Each problem follows a consistent, educational structure:
 | 🎆 New Year Countdown         |  🟢 Easy   | Sorting + Circular Time  | [View](./Data-Structures/04-Hash-Tables/new_year_countdown.ts) |
 | Group Anagrams                | 🟡 Medium  | Canonical Form + HashMap |   [View](./Data-Structures/04-Hash-Tables/group_anagrams.ts)   |
 | 🔢 Longest Consecutive        | 🟡 Medium  | HashSet + Sequence Start | [View](./Data-Structures/04-Hash-Tables/longest_consecutive.ts)|
+| 🪟 Minimum Window Substring   |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/minimum_window_substring.ts)|
 
 </div>
 
@@ -84,7 +85,7 @@ graph LR
 | Topic               |   Status   | Count |
 | ------------------- | :--------: | :---: |
 | Arrays              | 📝 Planned |   0   |
-| **Hash Tables**     | ✅ Active  | **5** |
+| **Hash Tables**     | ✅ Active  | **6** |
 | Linked Lists        | 📝 Planned |   0   |
 | Stacks & Queues     | 📝 Planned |   0   |
 | Trees               | 📝 Planned |   0   |
@@ -117,7 +118,8 @@ npx tsx Data-Structures/04-Hash-Tables/two_sum.ts
  ┃   ┣ 📜 new_year_countdown.ts
  ┃   ┣ 📜 new_year_visualizer.html
  ┃   ┣ 📜 group_anagrams.ts
- ┃   ┗ 📜 longest_consecutive.ts
+ ┃   ┣ 📜 longest_consecutive.ts
+ ┃   ┗ 📜 minimum_window_substring.ts
  ┗ 📜 README.md
 ```
 
@@ -187,7 +189,7 @@ Found this helpful? Feel free to:
 **Hamed Mohamed**
 
 [![GitHub](https://img.shields.io/badge/GitHub-7amed3li-181717?style=for-the-badge&logo=github)](https://github.com/7amed3li)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/7amed3li)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/h-amedmohamed/)
 
 ---
 
