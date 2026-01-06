@@ -384,7 +384,7 @@ console.log("   مسألة تجميع الـ Anagrams - اختبارات");
 console.log("=".repeat(60));
 
 // Helper to display results nicely
-function displayResult(testName: string, input: string[], result: string[][]) {
+function displayAnagramsResult(testName: string, input: string[], result: string[][]) {
     console.log(`\n${testName}`);
     console.log(`   📥 Input: [${input.map(s => `"${s}"`).join(', ')}]`);
     const output = result.map(group => 
@@ -397,30 +397,30 @@ function displayResult(testName: string, input: string[], result: string[][]) {
 const test1 = ["eat", "tea", "tan", "ate", "nat", "bat"];
 console.log("\n📌 Test 1 (Main Example / المثال الأساسي):");
 console.log("   Using Sorting Method:");
-displayResult("   Result", test1, groupAnagramsSorting(test1));
+displayAnagramsResult("   Result", test1, groupAnagramsSorting(test1));
 console.log("   ✅ Expected: [['eat','tea','ate'], ['tan','nat'], ['bat']]");
 
 // Test Case 2: Empty string
 const test2 = [""];
-displayResult("📌 Test 2 (Empty String / نص فارغ)", test2, groupAnagramsOptimal(test2));
+displayAnagramsResult("📌 Test 2 (Empty String / نص فارغ)", test2, groupAnagramsOptimal(test2));
 
 // Test Case 3: Single character
 const test3 = ["a"];
-displayResult("📌 Test 3 (Single Character / حرف واحد)", test3, groupAnagramsOptimal(test3));
+displayAnagramsResult("📌 Test 3 (Single Character / حرف واحد)", test3, groupAnagramsOptimal(test3));
 
 // Test Case 4: All same anagrams
 const test4 = ["abc", "bca", "cab", "acb"];
-displayResult("📌 Test 4 (All Anagrams / كلهم anagrams)", test4, groupAnagramsOptimal(test4));
+displayAnagramsResult("📌 Test 4 (All Anagrams / كلهم anagrams)", test4, groupAnagramsOptimal(test4));
 console.log("   ✅ Expected: All in one group (الكل في مجموعة واحدة)");
 
 // Test Case 5: No anagrams
 const test5 = ["abc", "def", "ghi"];
-displayResult("📌 Test 5 (No Anagrams / لا يوجد anagrams)", test5, groupAnagramsOptimal(test5));
+displayAnagramsResult("📌 Test 5 (No Anagrams / لا يوجد anagrams)", test5, groupAnagramsOptimal(test5));
 console.log("   ✅ Expected: Each in separate group (كل كلمة في مجموعة لوحدها)");
 
 // Test Case 6: Mixed lengths
 const test6 = ["a", "ab", "ba", "abc", "cba", "bac"];
-displayResult("📌 Test 6 (Mixed Lengths / أطوال مختلطة)", test6, groupAnagramsOptimal(test6));
+displayAnagramsResult("📌 Test 6 (Mixed Lengths / أطوال مختلطة)", test6, groupAnagramsOptimal(test6));
 
 console.log("\n" + "=".repeat(60));
 console.log("✅ All tests completed! (تم تنفيذ كل الاختبارات بنجاح)");

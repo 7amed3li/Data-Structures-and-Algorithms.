@@ -209,7 +209,7 @@ function minWindow(s: string, t: string): string {
 // 5. Test Cases (اختبارات)
 // -----------------------------------------------------------------
 
-function displayResult(s: string, t: string, expected: string) {
+function displayMinWindowResult(s: string, t: string, expected: string) {
     const start = performance.now();
     const result = minWindow(s, t);
     const end = performance.now();
@@ -230,11 +230,11 @@ console.log("=".repeat(50));
 console.log("🧪 Testing Minimum Window Substring");
 console.log("=".repeat(50));
 
-displayResult("ADOBECODEBANC", "ABC", "BANC");
-displayResult("a", "a", "a");
-displayResult("a", "aa", "");
-displayResult("ab", "b", "b");
-displayResult("donutsandcoffee", "dan", "and");
+displayMinWindowResult("ADOBECODEBANC", "ABC", "BANC");
+displayMinWindowResult("a", "a", "a");
+displayMinWindowResult("a", "aa", "");
+displayMinWindowResult("ab", "b", "b");
+displayMinWindowResult("donutsandcoffee", "dan", "and");
 
 // -----------------------------------------------------------------
 // 6. Interview Tips (نصائح للمقابلات)

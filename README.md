@@ -3,7 +3,7 @@
 # 📊 Data Structures & Algorithms
 
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Problems-6-success?style=for-the-badge" alt="Problems"/>
+<img src="https://img.shields.io/badge/Problems-7-success?style=for-the-badge" alt="Problems"/>
 <img src="https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge" alt="Status"/>
 <img src="https://img.shields.io/github/last-commit/7amed3li/Data-Structures-and-Algorithms?style=for-the-badge&color=purple" alt="Last Commit"/>
 
@@ -63,6 +63,7 @@ Each problem follows a consistent, educational structure:
 | Group Anagrams                | 🟡 Medium  | Canonical Form + HashMap |   [View](./Data-Structures/04-Hash-Tables/group_anagrams.ts)   |
 | 🔢 Longest Consecutive        | 🟡 Medium  | HashSet + Sequence Start | [View](./Data-Structures/04-Hash-Tables/longest_consecutive.ts)|
 | 🪟 Minimum Window Substring   |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/minimum_window_substring.ts)|
+| 🔗 Substring Concatenation    |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/substring_concatenation.ts)|
 
 </div>
 
@@ -85,7 +86,7 @@ graph LR
 | Topic               |   Status   | Count |
 | ------------------- | :--------: | :---: |
 | Arrays              | 📝 Planned |   0   |
-| **Hash Tables**     | ✅ Active  | **6** |
+| **Hash Tables**     | ✅ Active  | **7** |
 | Linked Lists        | 📝 Planned |   0   |
 | Stacks & Queues     | 📝 Planned |   0   |
 | Trees               | 📝 Planned |   0   |
@@ -119,7 +120,8 @@ npx tsx Data-Structures/04-Hash-Tables/two_sum.ts
  ┃   ┣ 📜 new_year_visualizer.html
  ┃   ┣ 📜 group_anagrams.ts
  ┃   ┣ 📜 longest_consecutive.ts
- ┃   ┗ 📜 minimum_window_substring.ts
+ ┃   ┣ 📜 minimum_window_substring.ts
+ ┃   ┗ 📜 substring_concatenation.ts
  ┗ 📜 README.md
 ```
 
