@@ -62,6 +62,7 @@ Each problem follows a consistent, educational structure:
 | 🎆 New Year Countdown         |  🟢 Easy   | Sorting + Circular Time  | [View](./Data-Structures/04-Hash-Tables/new_year_countdown.ts) |
 | Group Anagrams                | 🟡 Medium  | Canonical Form + HashMap |   [View](./Data-Structures/04-Hash-Tables/group_anagrams.ts)   |
 | 🔢 Longest Consecutive        | 🟡 Medium  | HashSet + Sequence Start | [View](./Data-Structures/04-Hash-Tables/longest_consecutive.ts)|
+| ⚖️ Subarray Sum Equals K      | 🟡 Medium  | Prefix Sum + HashMap     | [View](./Data-Structures/04-Hash-Tables/subarray_sum_equals_k.ts)|
 | 🪟 Minimum Window Substring   |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/minimum_window_substring.ts)|
 | 🔗 Substring Concatenation    |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/substring_concatenation.ts)|
 
