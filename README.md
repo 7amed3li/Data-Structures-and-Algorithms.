@@ -3,7 +3,7 @@
 # 📊 Data Structures & Algorithms
 
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Problems-8-success?style=for-the-badge" alt="Problems"/>
+<img src="https://img.shields.io/badge/Problems-9-success?style=for-the-badge" alt="Problems"/>
 <img src="https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge" alt="Status"/>
 <img src="https://img.shields.io/github/last-commit/7amed3li/Data-Structures-and-Algorithms?style=for-the-badge&color=purple" alt="Last Commit"/>
 
@@ -66,6 +66,7 @@ Each problem follows a consistent, educational structure:
 | 🎯 Top K Frequent Elements    | 🟡 Medium  | HashMap + Bucket Sort    | [View](./Data-Structures/04-Hash-Tables/top_k_frequent.ts)|
 | 🪟 Minimum Window Substring   |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/minimum_window_substring.ts)|
 | 🔗 Substring Concatenation    |  🔴 Hard   | Sliding Window + HashMap | [View](./Data-Structures/04-Hash-Tables/substring_concatenation.ts)|
+| 📈 Max Points on a Line       |  🔴 Hard   | HashMap + GCD (Math)     | [View](./Data-Structures/04-Hash-Tables/max_points_on_a_line.ts)|
 
 </div>
 
@@ -88,7 +89,7 @@ graph LR
 | Topic               |   Status   | Count |
 | ------------------- | :--------: | :---: |
 | Arrays              | 📝 Planned |   0   |
-| **Hash Tables**     | ✅ Active  | **8** |
+| **Hash Tables**     | ✅ Active  | **9** |
 | Linked Lists        | 📝 Planned |   0   |
 | Stacks & Queues     | 📝 Planned |   0   |
 | Trees               | 📝 Planned |   0   |
