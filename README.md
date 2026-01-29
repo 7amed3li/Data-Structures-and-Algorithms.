@@ -3,7 +3,7 @@
 # 📊 Data Structures & Algorithms
 
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Problems-9-success?style=for-the-badge" alt="Problems"/>
+<img src="https://img.shields.io/badge/Problems-10-success?style=for-the-badge" alt="Problems"/>
 <img src="https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge" alt="Status"/>
 <img src="https://img.shields.io/github/last-commit/7amed3li/Data-Structures-and-Algorithms?style=for-the-badge&color=purple" alt="Last Commit"/>
 
@@ -53,6 +53,12 @@ Each problem follows a consistent, educational structure:
 
 <div align="center">
 
+### 📊 Arrays
+
+| Problem                              | Difficulty | Key Concept              |                                  Solution                                  |
+| ------------------------------------ | :--------: | ------------------------ | :------------------------------------------------------------------------: |
+| 💰 Best Time to Buy and Sell Stock  |  🟢 Easy   | Greedy + State Tracking  | [View](./Data-Structures/01-Arrays/best_time_to_buy_sell_stock.ts)        |
+
 ### 🗃️ Hash Tables
 
 | Problem                       | Difficulty | Key Concept              |                            Solution                            |
@@ -83,12 +89,13 @@ graph LR
     E --> F[Graphs]
     F --> G[Dynamic Programming]
 
+    style A fill:#4CAF50,stroke:#333,stroke-width:2px,color:#fff
     style B fill:#4CAF50,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 | Topic               |   Status   | Count |
 | ------------------- | :--------: | :---: |
-| Arrays              | 📝 Planned |   0   |
+| **Arrays**          | ✅ Active  | **1** |
 | **Hash Tables**     | ✅ Active  | **9** |
 | Linked Lists        | 📝 Planned |   0   |
 | Stacks & Queues     | 📝 Planned |   0   |
@@ -105,7 +112,8 @@ graph LR
 git clone https://github.com/7amed3li/Data-Structures-and-Algorithms.git
 cd Data-Structures-and-Algorithms
 
-# Run any solution
+# Run any solution (examples)
+npx tsx Data-Structures/01-Arrays/best_time_to_buy_sell_stock.ts
 npx tsx Data-Structures/04-Hash-Tables/two_sum.ts
 ```
 
@@ -116,6 +124,8 @@ npx tsx Data-Structures/04-Hash-Tables/two_sum.ts
 ```
 📦 Data-Structures-and-Algorithms
  ┣ 📂 Data-Structures
+ ┃ ┣ 📂 01-Arrays
+ ┃ ┃ ┗ 📜 best_time_to_buy_sell_stock.ts
  ┃ ┗ 📂 04-Hash-Tables
  ┃   ┣ 📜 birthday_problem.ts
  ┃   ┣ 📜 two_sum.ts
@@ -151,15 +161,33 @@ for (let i = 0; i < nums.length; i++) {
 }
 ```
 
-</td>
-<td width="50%">
-
-### 🎯 Use Cases
-
+**Use Cases:**
 - Finding pairs/complements
 - Frequency counting
 - Duplicate detection
 - Quick O(1) lookups
+
+</td>
+<td width="50%">
+
+### 💰 Greedy + State Tracking
+
+```typescript
+let minPrice = prices[0];
+let maxProfit = 0;
+
+for (let i = 1; i < prices.length; i++) {
+  const profit = prices[i] - minPrice;
+  maxProfit = Math.max(maxProfit, profit);
+  minPrice = Math.min(minPrice, prices[i]);
+}
+```
+
+**Use Cases:**
+- Buy/Sell optimization
+- Maximum subarray problems
+- Best choice from past data
+- Single-pass solutions
 
 </td>
 </tr>
